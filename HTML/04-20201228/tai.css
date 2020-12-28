@@ -1,0 +1,30 @@
+.dau{
+    height: 110px;
+    background-color: red;
+    text-align: center;
+}
+.than{
+    height: 845px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+}
+.than1{
+    background-color: brown;
+    height: 845px;
+    width: 300px;
+
+}
+.giua{
+    height: 500px;
+    width: 1550px;
+}
+.than2{
+    background-color: chartreuse;
+    height: 845px;
+    width: 300px;
+}
+.duoi{
+    height: 110px;
+    background-color: blue;
+}
