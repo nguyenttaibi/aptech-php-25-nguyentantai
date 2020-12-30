@@ -1,30 +1,89 @@
-.dau{
-    height: 110px;
-    background-color: red;
-    text-align: center;
+.dau-ong{
+    background-color:rgb(255, 176, 5);
+    width: 80%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
-.than{
-    height: 845px;
-    background-color: yellow;
+.dau-cha1{
+    background-color: blue;
+    width: 60%;
+    margin: 20px;
+  
+
+}
+.dau-cha2{
+    background-color: cadetblue;
+    margin: 20px;
+    width: 28%;
+}
+.than-cha{
+    background-color: dimgray;
+    width: 80%;
+    height: 150px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 100px;
+ 
+}
+.than-con1{
+
+    width: 50%;
+    height: 100%;
+}
+.than-chau1{
+    background-color: blue;
+    width: 75%;
+    height: 20px;
+    margin: 30px;
+    margin-left: 10%;
+}
+.than-chau2{
+    background-color: blue;
+    width: 75%;
+    height: 50px;
+    margin: 30px;
+    margin-left: 10%;
+}
+.than-con2{
+    background-color: blue;
+    width: 20%;
+    height: 100px;
+
+}
+.than-con3{
+    background-color: blue;
+    width: 20%;
+    height: 20%;
+}
+.duoi-cha{
+    background-color: blue;
+    width: 80%;
+    height: 40px;
+    margin-left: 100px;
     display: flex;
     flex-direction: row;
 }
-.than1{
-    background-color: brown;
-    height: 845px;
-    width: 300px;
-
+.duoi-con1{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 2px;
+    margin: 18px;
 }
-.giua{
-    height: 500px;
-    width: 1550px;
+.duoi-con2{
+    background-color:rgb(255, 255, 255); ;
+    width: 30%;
+    height: 2px;
+    margin: 18px;
 }
-.than2{
-    background-color: chartreuse;
-    height: 845px;
-    width: 300px;
-}
-.duoi{
-    height: 110px;
-    background-color: blue;
+.duoi-con3{
+    background-color:rgb(255, 255, 255); ;
+    width: 30%;
+    height: 2px;
+    margin: 18px;
 }
