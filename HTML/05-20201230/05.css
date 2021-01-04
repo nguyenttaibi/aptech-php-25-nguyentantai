@@ -1,0 +1,23 @@
+.dau{
+    background-color:silver;
+    height: 40px;
+
+}
+.dau-1{
+    margin: 10px 10px 400px 400px;
+    padding: 8px;
+
+}
+.than{
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+}
+.form{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px; 
+}
+.input{
+    margin: 20px;
+}
