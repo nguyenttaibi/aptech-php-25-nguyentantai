@@ -21,4 +21,16 @@ html {
 .Header__Ul__Li-Second__Anchor--hover:hover {
   border-bottom: 5px solid gray;
 }
+
+.content {
+  height: 50%;
+}
+
+.footer {
+  height: 25%;
+}
+
+.footer__div {
+  margin-left: 15rem;
+}
 /*# sourceMappingURL=style.css.map */
