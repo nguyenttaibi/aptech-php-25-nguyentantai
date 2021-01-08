@@ -1,0 +1,28 @@
+.laco {
+    height: 200px;
+    &__mau1 {
+        background-color: red;
+        height: 100px;
+    }
+    &__mau2 {
+        background-color: blue;
+        height: 100px;
+
+    }
+    &__mau3 {
+        background-color: green;
+        height: 100px;
+
+    }
+}
+@media screen (max-width: 575.98px) { 
+    &__mau1::after &__mau3::before {
+
+    }
+ }
+ @media screen (max-width: 1299.98px) {
+     &__mau3 ::before &__mau1::after{
+
+     }
+
+ }
