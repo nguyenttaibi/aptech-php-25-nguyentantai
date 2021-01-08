@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+}
+
+html {
+  font-size: 20px;
+}
+
+.Header {
+  height: 25%;
+}
+
+.Header__Ul__Li-First--border-bottom-white {
+  border-bottom: 5px solid white;
+}
+
+.Header__Ul__Li-Second__Anchor--white {
+  color: white !important;
+}
+
+.Header__Ul__Li-Second__Anchor--hover:hover {
+  border-bottom: 5px solid gray;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+}
+html {
+    font-size: 20px;
+}
+.Header {
+    height: 25%;
+    &__Ul {
+        &__Li {
+            &-First {
+                &--border-bottom-white {
+                    border-bottom: 5px solid white;
+                }
+            }
+            &-Second {
+                &__Anchor{
+                    &--white {
+                        color: white !important;
+                    }
+                    &--hover:hover{
+                        border-bottom: 5px solid gray;
+                    }
+                }
+            }
+        }
+    }
+}
