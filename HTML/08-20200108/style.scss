@@ -1,0 +1,74 @@
+.dau{
+    width: 100%;
+        &__daumot{
+            width: 50%;
+
+        }
+        &__dauhai{
+            width: 50%;
+            
+        }
+}
+.than{
+    width: 100%;
+        &__anh{
+            width: 66.666666666%;
+            &__mot{
+                width: 50%;
+
+            }
+            &__hai{
+                width: 50%;
+            }
+
+        }
+        &__em{
+            width: 33.33333333%;
+        }
+}
+.dit{
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px)
+{
+    .than{
+        flex-direction: column !important ;
+        width: 100%;
+            &__anh{
+                width: 66.666666%;
+                &__mot{
+                    width: 50%;
+    
+                }
+                &__hai{
+                    width: 50%;
+                }
+    
+            }
+            &__em{
+                width: 33.33333333%;
+            }
+    }
+}
+@media only screen and (min-width: 1200px)
+{
+    flex-direction: row !important ;
+    .than{
+        width: 100%;
+            &__anh{
+                width: 66.666666%;
+                &__mot{
+                    width: 50%;
+    
+                }
+                &__hai{
+                    width: 50%;
+                }
+    
+            }
+            &__em{
+                width: 33.33333333%;
+            }
+    }
+}

@@ -1,0 +1,80 @@
+.dau {
+  width: 100%;
+}
+
+.dau__daumot {
+  width: 50%;
+}
+
+.dau__dauhai {
+  width: 50%;
+}
+
+.than {
+  width: 100%;
+}
+
+.than__anh {
+  width: 66.666666666%;
+}
+
+.than__anh__mot {
+  width: 50%;
+}
+
+.than__anh__hai {
+  width: 50%;
+}
+
+.than__em {
+  width: 33.33333333%;
+}
+
+.dit {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .than {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    width: 100%;
+  }
+  .than__anh {
+    width: 66.666666%;
+  }
+  .than__anh__mot {
+    width: 50%;
+  }
+  .than__anh__hai {
+    width: 50%;
+  }
+  .than__em {
+    width: 33.33333333%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  .than {
+    width: 100%;
+  }
+  .than__anh {
+    width: 66.666666%;
+  }
+  .than__anh__mot {
+    width: 50%;
+  }
+  .than__anh__hai {
+    width: 50%;
+  }
+  .than__em {
+    width: 33.33333333%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
