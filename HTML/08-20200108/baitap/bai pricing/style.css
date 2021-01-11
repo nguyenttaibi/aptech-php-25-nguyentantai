@@ -1,41 +1,10 @@
-body {
-  height: 100vh;
-  background-color: aqua;
+.main__one {
+  padding: 0px 30%;
 }
 
-.header {
-  height: 6%;
-  background-color: bisque;
-}
-
-.header__left {
-  padding: 15px;
-}
-
-.header__right__btn {
-  background-color: white;
-  border: red;
-  color: blue;
-  padding: 10px 10px;
-  padding: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 5px;
+.footer__one {
   height: 30px;
-}
-
-.content {
-  height: 100%;
-  background-color: rosybrown;
-}
-
-.content__top {
-  font-size: 20px;
-}
-
-.footer {
-  height: 30%;
-  background-color: yellow;
+  width: 30px;
+  background-color: #2b054f;
 }
 /*# sourceMappingURL=style.css.map */
