@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    background-color: aqua
+}
+.header{
+    height: 6%;
+    background-color: bisque;
+        &__left{
+            padding: 15px;
+        }
+        &__right{
+            &__btn{
+                background-color: white;
+                border: red ;
+                color:blue;
+                padding: 10px 10px;
+                padding: 5px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 5px;
+                height: 30px;
+            }
+        }
+}
+.content{
+    height: 100%;
+    background-color: rosybrown;
+        &__top{
+            font-size: 20px;
+        }
+}
+.footer{    
+  height: 30%;
+  background-color: yellow;
+}
