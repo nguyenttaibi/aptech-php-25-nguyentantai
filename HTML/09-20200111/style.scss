@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+}
+.buttons{
+    height: 37%;
+        &__one{
+            &__two{
+                width: 100%;
+                height: 100%;
+            }
+        }
+}
+.footer{
+    background-color: #f9f9f9;
+}
+.chinhmau{
+    background-color: f9f9f9;
+}
