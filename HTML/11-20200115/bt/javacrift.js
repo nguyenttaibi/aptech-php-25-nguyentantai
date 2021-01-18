@@ -19,3 +19,8 @@ function givayta() {
     }
     document.getElementById('nhapbang').innerHTML = text ;
 }
+function addTable() {
+  var table = document.createElement('table');
+  table.innerHTML = "<tr><td>111111</td></tr>";
+  document.getElementById('addtable').appendChild(table);
+}
