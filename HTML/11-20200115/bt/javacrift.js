@@ -1,11 +1,15 @@
-function givayta() {
- var sanpham =[
+function giVayTa() {
+  var sanpham =[
     ['Iphone', 'IP8',10],
     ['Iphone', 'IPX',15],
     ['Iphone', 'IPXS',19],
     ['Iphone', 'IP11',20],
     ['Iphone', 'IP12',30],
  ];
+  var table = document.createElement('table');
+  table.innerHTML = "<tr><th>#</th><th>Ten</th><th>Loai</th><th>gia</th></tr>";
+  document.getElementById('addtable').appendChild(table);
+ 
 
  var text= '' ;
     for(var i = 0;i < sanpham.length ; i++){ 
@@ -19,8 +23,8 @@ function givayta() {
     }
     document.getElementById('nhapbang').innerHTML = text ;
 }
-function addTable() {
-  var table = document.createElement('table');
-  table.innerHTML = "<tr><td>111111</td></tr>";
-  document.getElementById('addtable').appendChild(table);
-}
+// function giVayTa() {
+//   var table = document.createElement('table');
+//   table.innerHTML = "<tr><th>#</th><th>Ten</th><th>Loai</th><th>gia</th></tr>";
+//   document.getElementById('addtable').appendChild(table);
+// }
