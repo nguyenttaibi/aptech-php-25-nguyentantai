@@ -11,8 +11,8 @@ function ghetToiDi() {
                     var td = document.createElement('td');
                     // td chua co du lieu de in ra
                     td.innerHTML = td;
-                    td.innerHTML = duLieuNe.users;
-                    td.appendChild(duLieuNe.users);
+                    td.innerHTML = duLieuNe.users[i][j];
+                    td.appendChild(duLieuNe.users[i][j]);
                     tr.appendChild(td);
                 }
                 taBle.appendChild(tr);
@@ -21,6 +21,7 @@ function ghetToiDi() {
             // console.log(duLieuNe.users[0]);
             // console.log(duLieuNe.users[1]);
             // console.log(duLieuNe.users);
+            console.log(duLieuNe[i][j]);
             document.getElementById('table').innerHTML = taBle;
         }
     };
