@@ -1,0 +1,47 @@
+.main {
+  background-image: url("./img/hinh nen.jpg");
+  height: 50vh;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-size: cover;
+  background-position: relative;
+}
+
+.Content__Hinh {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.Content__Hinh-Mot {
+  background-image: url("./img/1.jpg");
+  height: 400px;
+}
+
+.Content__Hinh-Hai {
+  background-image: url("./img/2.jpg");
+  height: 400px;
+}
+
+.Content__Hinh-Ba {
+  background-image: url("./img/3.jpg");
+  height: 400px;
+}
+
+.People {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.People__Item {
+  max-width: 15rem;
+}
+
+.Contact {
+  background-image: url("./img/hinh nen.jpg");
+  height: 400px;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  position: relative;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

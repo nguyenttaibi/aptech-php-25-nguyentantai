@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('hide').click(function()
+    {
+        $('p,h4').hide();
+    });
+    $('show').click(function(){
+        $('p,h4').show();
+    });
+})
